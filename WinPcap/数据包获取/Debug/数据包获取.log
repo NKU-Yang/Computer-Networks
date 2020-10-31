@@ -1,0 +1,25 @@
+﻿生成启动时间为 2020/10/31 15:43:30。
+     1>项目“C:\Users\LSY\documents\visual studio 2013\Projects\数据包获取\数据包获取\数据包获取.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Winpcap\WpdPack_4_1_2\WpdPack\Lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\数据包获取.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "数据包获取.cpp"
+         数据包获取.cpp
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(45): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(46): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(198): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(208): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(180): warning C4101: “DestinationIP”: 未引用的局部变量
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(143): warning C4101: “a”: 未引用的局部变量
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(180): warning C4101: “SourceIP”: 未引用的局部变量
+     1>c:\users\lsy\documents\visual studio 2013\projects\数据包获取\数据包获取\数据包获取.cpp(179): warning C4101: “IPPacket”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LSY\documents\visual studio 2013\Projects\数据包获取\Debug\数据包获取.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Winpcap\WpdPack_4_1_2\WpdPack\Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LSY\documents\visual studio 2013\Projects\数据包获取\Debug\数据包获取.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LSY\documents\visual studio 2013\Projects\数据包获取\Debug\数据包获取.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\数据包获取.obj"
+         数据包获取.vcxproj -> C:\Users\LSY\documents\visual studio 2013\Projects\数据包获取\Debug\数据包获取.exe
+     1>已完成生成项目“C:\Users\LSY\documents\visual studio 2013\Projects\数据包获取\数据包获取\数据包获取.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.82
