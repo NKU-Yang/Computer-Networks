@@ -1,0 +1,26 @@
+﻿生成启动时间为 2020/12/4 20:50:05。
+     1>项目“D:\Winpcap\Projects\发送ARP获取IP与MAC\发送ARP获取IP与MAC\发送ARP获取IP与MAC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Winpcap\WpdPack_4_1_2\WpdPack\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\发送ARP获取IP与MAC.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "发送ARP获取IP与MAC.cpp"
+         发送ARP获取IP与MAC.cpp
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(12): warning C4091: “typedef ”: 没有声明变量时忽略“Ethernet_head”的左侧
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(26): warning C4091: “typedef ”: 没有声明变量时忽略“ARPFrame_t”的左侧
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(68): warning C4101: “res”: 未引用的局部变量
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(65): warning C4101: “timestr”: 未引用的局部变量
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(60): warning C4101: “a”: 未引用的局部变量
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(64): warning C4101: “local_tv_sec”: 未引用的局部变量
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(63): warning C4101: “ltime”: 未引用的局部变量
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(182): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(277): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>d:\winpcap\projects\发送arp获取ip与mac\发送arp获取ip与mac\发送arp获取ip与mac.cpp(130): warning C4700: 使用了未初始化的局部变量“recvthread”
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Winpcap\Projects\发送ARP获取IP与MAC\Debug\发送ARP获取IP与MAC.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Winpcap\WpdPack_4_1_2\WpdPack\Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Winpcap\Projects\发送ARP获取IP与MAC\Debug\发送ARP获取IP与MAC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Winpcap\Projects\发送ARP获取IP与MAC\Debug\发送ARP获取IP与MAC.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\发送ARP获取IP与MAC.obj"
+         发送ARP获取IP与MAC.vcxproj -> D:\Winpcap\Projects\发送ARP获取IP与MAC\Debug\发送ARP获取IP与MAC.exe
+     1>已完成生成项目“D:\Winpcap\Projects\发送ARP获取IP与MAC\发送ARP获取IP与MAC\发送ARP获取IP与MAC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.49

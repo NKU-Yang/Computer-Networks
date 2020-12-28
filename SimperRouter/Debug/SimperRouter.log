@@ -1,0 +1,23 @@
+﻿生成启动时间为 2020/12/21 21:38:49。
+     1>项目“C:\Users\LSY\Desktop\Network\SimperRouter-master\SimperRouter-master\SimperRouter\SimperRouter.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Winpcap\WpdPack_4_1_2\WpdPack\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D WPCAP /D HAVE_REMOTE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\SimperRouter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Winpcap\WpdPack_4_1_2\WpdPack\Include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D WPCAP /D HAVE_REMOTE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SimperRouter.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SimperRouter.cpp SimperRouterDlg.cpp
+         SimperRouterDlg.cpp
+     1>c:\users\lsy\desktop\network\simperrouter-master\simperrouter-master\simperrouter\simperrouterdlg.cpp(619): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+         SimperRouter.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /IDebug\ /nologo /fo"Debug\SimperRouter.res" SimperRouter.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LSY\Desktop\Network\SimperRouter-master\SimperRouter-master\Debug\SimperRouter.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Winpcap\WpdPack_4_1_2\WpdPack\Lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\LSY\Desktop\Network\SimperRouter-master\SimperRouter-master\Debug\SimperRouter.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LSY\Desktop\Network\SimperRouter-master\SimperRouter-master\Debug\SimperRouter.lib" /MACHINE:X86 Debug\SimperRouter.res
+         Debug\SimperRouter.obj
+         Debug\SimperRouterDlg.obj
+         Debug\stdafx.obj
+         SimperRouter.vcxproj -> C:\Users\LSY\Desktop\Network\SimperRouter-master\SimperRouter-master\Debug\SimperRouter.exe
+     1>已完成生成项目“C:\Users\LSY\Desktop\Network\SimperRouter-master\SimperRouter-master\SimperRouter\SimperRouter.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.14
